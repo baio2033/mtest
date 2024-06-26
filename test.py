@@ -1,3 +1,4 @@
 import os
 
-print(os.getcwd())
+for _ in os.listdir():
+    print(_)
